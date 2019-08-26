@@ -3,7 +3,7 @@ Const CONVERSION_FACTOR = 1048576
 Const WARNING_THRESHOLD = 100
 
 If WScript.Arguments.Count = 0 Then
-    Wscript.Echo "Usage: FirstScript.vbs server1 [server2] [server3] ..."
+Wscript.Echo "Usage: cscript //nologo diskspace2.vbs.vbs server1 [server2] [server3] ..."
     WScript.Quit
 End If
 
